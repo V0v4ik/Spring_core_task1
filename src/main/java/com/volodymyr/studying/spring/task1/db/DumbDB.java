@@ -1,5 +1,6 @@
 package com.volodymyr.studying.spring.task1.db;
 
+import com.volodymyr.studying.spring.task1.model.Bug;
 import com.volodymyr.studying.spring.task1.model.Department;
 import com.volodymyr.studying.spring.task1.model.Employee;
 
@@ -17,4 +18,8 @@ public class DumbDB {
     public static Set<Department> departmentsStorage = new HashSet<>();
 
     public static int departmentCounter;
+
+    public static List<Bug> bugsStorage = new ArrayList<>();
+
+    public static int bugCounter;
 }

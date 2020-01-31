@@ -4,7 +4,6 @@ import com.volodymyr.studying.spring.task1.db.DumbDB;
 import com.volodymyr.studying.spring.task1.model.Department;
 import com.volodymyr.studying.spring.task1.model.Employee;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
